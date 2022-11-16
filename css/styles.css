@@ -328,7 +328,7 @@ a {
     color: #AFB1B8;
 }
 
-.border-icon:not(:last-child) {
+.icon-list:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -579,7 +579,7 @@ padding: 0;
     height: 92px;
     align-items: center;
     justify-content: center;
-    border: 1px solid grey;
+    border: 1px solid #AFB1B8;
     border-radius: 4px;
     color: #AFB1B8;
 }
@@ -619,6 +619,10 @@ padding: 0;
 .footer-list {
     display: inline-flex;
     justify-content: flex-start;
+}
+
+.footer-list:not(:last-child) {
+    margin-right: 10px;
 }
 
 .footer-link {
